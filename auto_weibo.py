@@ -8,11 +8,6 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 import SendKeys
 
-'''
-# 安装python selenium环境  要下载firefox驱动，添加驱动、firefox到系统环境变量path
-# 建好下载图片保存路径，赋值给 save_img_path
-# pip install SendKeys
-'''
 
 driver = webdriver.Firefox()
 driver.get("https://weibo.com/login.php")
